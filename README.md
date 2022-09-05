@@ -1,16 +1,20 @@
 ## Arclight Plugin Patcher
 
-**NOTE**: This repository only contains the WorldEdit-related patch.   
-You'll have to code it yourself, with looking through Arclight API & Spigot API,   
-if you want to patch other plugins not properly working on Arclight.
+**NOTE**: Since of Arclight Commit # [0f76fd6](https://github.com/IzzelAliz/Arclight/tree/0f76fd6de82c3ad0e420742ae9c52bb3154c2bab) (1.19) and # [6ae3a37](https://github.com/IzzelAliz/Arclight/tree/6ae3a378dc930e48fa7011532a95fb5903880ab6) (1.18), you don't require this plugin.   
+If you're using those versions or later, or release same or later than `1.18/1.0.7` or the later versions of Minecraft,   
+you don't have to apply nor build this.   
+However, since 1.16 has the same problem about it but patcher not included,   
+you have to get the binary on those versions.
+
+**IMPORTANT**: This plugin only includes WorldEdit's load patch.   
+If you have a compatibility issues, you shall make some issues to Arclight's main repo (not here)   
+and they'll look at it and fix it.
 
 ### Get Pre-built Binaries
 
-Head to Releases, and grab some.   
-You should make your own build if you're using customized server.   
-(for example, your server is at 1.15.2)
-
-Please note that this binary would support you **only when you're on Java 17**.
+The pre-built binary is not provided here.   
+So, until I build it manually, you should __build__ it through Gradle.   
+Head to `build` section to check it.
 
 ### Update Instructions
 
