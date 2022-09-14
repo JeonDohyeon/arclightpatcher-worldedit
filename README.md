@@ -1,20 +1,23 @@
 ## Arclight Plugin Patcher
 
-**NOTE**: Since of Arclight Commit # [0f76fd6](https://github.com/IzzelAliz/Arclight/tree/0f76fd6de82c3ad0e420742ae9c52bb3154c2bab) (1.19) and # [6ae3a37](https://github.com/IzzelAliz/Arclight/tree/6ae3a378dc930e48fa7011532a95fb5903880ab6) (1.18), you don't require this plugin.   
-If you're using those versions or later, or release same or later than `1.18/1.0.7` or the later versions of Minecraft,   
-you don't have to apply nor build this.   
-However, since 1.16 has the same problem about it but patcher not included,   
-you have to get the binary on those versions.
+**NOTE**: Since of Arclight Commit # [0f76fd6](https://github.com/IzzelAliz/Arclight/tree/0f76fd6de82c3ad0e420742ae9c52bb3154c2bab) (1.19), # [6ae3a37](https://github.com/IzzelAliz/Arclight/tree/6ae3a378dc930e48fa7011532a95fb5903880ab6) (1.18), and # [7c0b645](https://github.com/IzzelAliz/Arclight/tree/7c0b6453bf677a9d547ffd3766d4d0e09e8c1d82) (1.16), you don't require this plugin.   
+So, you don't have to apply this plugin on `1.16-1.0.24` or later, `1.18-1.0.7` or later, and/or Minecraft version `1.19` and later.
+
+If you're using builds before these, you **have to apply** this plugin to properly use WorldEdit plugin.   
+This patch also works on FastAsyncWorldEdit, aka `FAWE`.
 
 **IMPORTANT**: This plugin only includes WorldEdit's load patch.   
 If you have a compatibility issues, you shall make some issues to Arclight's main repo (not here)   
 and they'll look at it and fix it.
 
+### Plugin File Re-Use Avaliable!
+
+Re-using the patched plugin file is avaliable, since the file **doesn't change**.   
+(Normally, if WE plugin is avaliable on hybrids, you can't re-use the used plugin file to other server.)
+
 ### Get Pre-built Binaries
 
-The pre-built binary is not provided here.   
-So, until I build it manually, you should __build__ it through Gradle.   
-Head to `build` section to check it.
+1.16.5 and 1.18.2 is provided. Head to `releases` tab and get some.
 
 ### Update Instructions
 
